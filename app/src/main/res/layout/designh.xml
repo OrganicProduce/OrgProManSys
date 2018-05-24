@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rupee3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hoteladdress"
+        android:layout_toLeftOf="@+id/rate"
+        android:layout_toStartOf="@+id/rate"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/hotelpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/veg123" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/rate2"
+        android:layout_toStartOf="@+id/rate2"
+        android:paddingRight="5dp"
+        android:text="Price"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/rate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hoteladdress"
+        android:paddingRight="5dp"
+        android:text="Price"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/hoteladdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hotelname"
+        android:padding="2dp"
+        android:layout_toEndOf="@+id/hotelpic"
+        android:layout_toRightOf="@+id/hotelpic"
+        android:text="Description"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/hotelname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="2dp"
+        android:layout_toEndOf="@+id/hotelpic"
+        android:layout_toRightOf="@+id/hotelpic"
+        android:text="Product Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10dp" />
+
+</RelativeLayout>

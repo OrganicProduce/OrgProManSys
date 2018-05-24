@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.gurungpreyong.orgpromansys.sellersignupActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Seller"
+            android:textColor="@android:color/black"
+
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your Name"
+            android:inputType="textPersonName" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="password"
+                android:imeActionId="@+id/login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contact  Number"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Vegetables" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pulses" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:text="Dairy Products" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:text="Spices" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Fruits" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Flowers" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/popl"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/popl"
+            android:layout_toRightOf="@+id/popl"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:prompt="@string/app_name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sign_up_btnseller"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Sign up"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/already_btnseller"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Already register"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+        <!-- Link to Login Screen -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

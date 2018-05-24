@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bookbtn"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:replace="android:value"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hotelname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bookbtn"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/hotelpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/image_two" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hoteladdress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:maxLines="1"
+                    android:textColor="#555" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:id="@+id/rupee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hname"
+                        android:gravity="center"
+                        android:text="@string/Rs"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="Good"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp"
+
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
